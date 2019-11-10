@@ -1,4 +1,4 @@
-/* ↓ スマホ用 ↓ */
+/*  スマホ用 */
 
 @media all and (max-width: 670px) {
 
@@ -19,6 +19,12 @@
     font-size: 14px;
     font-weight: bold;
   }
+
+@media all and (max-width: 350px) { /* 幅350px以下の場合指定のフォントサイズだとナビゲーションが２行になるのでサイズ変えてます。 */
+    .header-right li {
+        font-size: 12px;
+        padding: 0px 8px 0px 0px;}
+}
 
 .header-right ul {
     padding: 0px;
