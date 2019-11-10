@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: "游ゴシック体";
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* ↓↓ header */
+
+  .container {
+    height: 31px;
+    padding: 22px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-left {
+    color: #1F91BE;
+    font-size: 31px;
+    font-weight: bold;
+  }
+
+  .header-right li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 9px 0px 6px 35px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+.header-right a {
+    color: #333333;
+}
+
+/* main-wrapper */
+
+.main-wrapper img {
+  width: 100%;
+}
+
+/* contents-wrapper */
+
+.contents-wrapper { 
+    padding: 100px 100px;
+    display: flex;
+}
+
+.title{
+    font-size: 32px;
+    color: #1F91BE;
+    font-weight: bold;
+    border-bottom: 4px solid #1F91BE;
+    margin: 0px 0px 10px 0px;
+}
+
+.article-wrapper {
+    width: 70%;
+    margin-right: 80px; 
+}
+
+.abouts {
+    padding-bottom: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.abouts .about { 
+    width: 46%;
+}
+
+.abouts .about img {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.text-contents {
+    font-size: 16px;
+    text-align: left;
+    color: #333333;
+}
+
+.news {
+    width: 100%;
+}
+.eachnews {
+    border-bottom: 1px solid #6F6F6F;  
+    display: flex;
+}
+
+.days {
+    font-size: 14px;
+    text-align: left;
+    color: #333333;  
+    font-weight: bold;
+    margin-right: 47px;
+    white-space: nowrap;
+    width: 120px;
+}
+.text-contents2 {
+    font-size: 14px;
+    text-align: left;
+    color: #333333;
+    width: max-content;
+    float: right;
+}
+
+.more {
+    float: right;
+    margin-top: 20px;
+    padding: 8px 34px;
+    color: #1F91BE;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    border: 2px solid #1F91BE;
+}
+
+/* 2.side-wrapper */
+
+.picture-area img {
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-area li {
+    font-weight: bold;
+}
+
+.title 
+
+/* ↑↑ contents-wrapper ↓↓ footer */
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: #C7C7C7;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    line-height: 50px;
+}
+
