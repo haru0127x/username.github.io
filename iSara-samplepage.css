@@ -7,7 +7,7 @@ body {
     text-decoration: none;
   }
 
-  /* ↓↓ header */
+  /* header */
 
   .container {
     height: 31px;
@@ -135,7 +135,7 @@ body {
 
 .title 
 
-/* ↑↑ contents-wrapper ↓↓ footer */
+/* footer */
 
 footer {
     width: 100%;
