@@ -1,6 +1,6 @@
 /*  スマホ用 */
 
-@media all and (max-width: 670px) {
+@media all and (min-width:350px) and (max-width: 670px) {
 
 .container {
     padding: 20px 15px;
@@ -165,5 +165,45 @@
     text-align: center;
     line-height: 30px;
 }
+
+}
+
+
+/* ↓幅930px以下でナビゲーションが２行になるので指定↓ */
+
+
+@media all and (min-width:670px) and ( max-width:930px) {
+
+    .container {
+        height: 75px;
+        padding: 22px 100px;
+        display: flex;    
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header-right li {
+        display: inline-block;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0px 12px 0px 0px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+    
+    .header-right ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .header-left h2 {
+        font-size: 31px;
+        width: 100%;
+        margin: 0px;
+        text-align: left;
+    }
+
 
 }
