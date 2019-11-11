@@ -10,7 +10,7 @@ body {
   /* header */
 
   .container {
-    height: 31px;
+    height: 75px;
     padding: 22px 100px;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@ body {
   .header-right li {
     display: inline-block;
     justify-content: space-between;
-    padding: 9px 0px 6px 35px;
+    padding: 9px 0px 6px 50px;
     text-decoration: none;
     color: #333333;
     font-size: 16px;
@@ -41,6 +41,10 @@ body {
 
 .main-wrapper img {
   width: 100%;
+}
+
+.main-wrapper p {
+    margin: 0px;
 }
 
 /* contents-wrapper */
@@ -64,7 +68,7 @@ body {
 }
 
 .abouts {
-    padding-bottom: 30px 0px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
     }
@@ -85,9 +89,14 @@ body {
     color: #333333;
 }
 
+.news-area {
+    padding-top: 24px;
+}
+
 .news {
     width: 100%;
 }
+
 .eachnews {
     border-bottom: 1px solid #6F6F6F;  
     display: flex;
@@ -98,16 +107,18 @@ body {
     text-align: left;
     color: #333333;  
     font-weight: bold;
-    margin-right: 47px;
+    margin: 20px 47px 20px 0px;
     white-space: nowrap;
     width: 120px;
 }
+
 .text-contents2 {
     font-size: 14px;
     text-align: left;
     color: #333333;
     width: max-content;
     float: right;
+    margin: 20px 0px;
 }
 
 .more {
@@ -124,18 +135,28 @@ body {
 /* 2.side-wrapper */
 
 .picture-area img {
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
 }
 
 .category-area li {
     font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.category-area .title {
+    margin-top: 10px;
+}
+
+.category-area ul {
+    width: 100%;
+    padding: 15px 0px 0px 15px;
 }
 
 /* footer */
 
-.container-footer {
+.footer {
     position: fixed;
     width: 100%;
     height: 50px;
@@ -145,4 +166,6 @@ body {
     text-align: center;
     line-height: 50px;
 }
+
+
 
