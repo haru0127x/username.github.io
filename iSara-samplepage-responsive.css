@@ -1,5 +1,15 @@
 /*  スマホ用 */
 
+@media all and (min-width:931px) and ( max-width:1025px) {
+    .container {
+    padding: 50px 50px;
+    }
+    .contents-wrapper { 
+    padding: 50px 50px;
+    }      
+}
+
+
 @media all and (max-width: 670px) {
 
 .container {
@@ -211,13 +221,4 @@ footer {
     }
 
 
-}
-
-@media all and (min-width:931px) and ( max-width:1025px) {
-    .container {
-    padding: 50px 50px;
-    }
-    .contents-wrapper { 
-    padding: 50px 50px;
-    }      
 }
