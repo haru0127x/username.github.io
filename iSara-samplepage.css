@@ -23,6 +23,11 @@ body {
     font-weight: bold;
   }
 
+.header-left H2 {
+    font-size: 31px; /* header-leftに指定しても反映されないので */
+ }
+
+
   .header-right li {
     display: inline-block;
     justify-content: space-between;
