@@ -1,6 +1,6 @@
 /*  スマホ用 */
 
-@media all and (min-width:320px) and (max-width: 670px) {
+@media all and (max-width: 670px) {
 
 .container {
     padding: 20px 15px;
@@ -199,7 +199,7 @@ footer {
         margin: 0px;
     }
     
-    .header-left h2 {
+    .header-left p {
         font-size: 31px;
         width: 100%;
         margin: 0px;
